@@ -1,21 +1,21 @@
 # gettingandcleaningdata
 The run_analysis.R file reads data from the Human Activity Recognition database. This database was built from experiment of a group of 30 volunteers within an age bracket of 19-48. Each volunteer performed six activities while wearing a Samsung Galaxy S II smartphone on the waist: walking, sitting standing, laying, walking upstairs and walking downstairs. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
 -	For each record in the dataset it is provided: 
-    Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-    Triaxial Angular velocity from the gyroscope. 
-    A 561-feature vector with time and frequency domain variables.
-    Its activity label.
+    Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration,
+    Triaxial Angular velocity from the gyroscope,
+    A 561-feature vector with time and frequency domain variables,
+    Its activity label,
     An identifier of the subject who carried out the experiment.
     
     
 -	The following datasets were provided:
-    'features_info.txt': Shows information about the variables used on the feature vector.
-    'features.txt': List of all features.
-    'activity_labels.txt': Links the class labels with their activity name.
-    'train/X_train.txt': Training set.
-    'train/y_train.txt': Training labels.
-    'test/X_test.txt': Test set.
-    'test/y_test.txt': Test labels.
+    'features_info.txt': Shows information about the variables used on the feature vector,
+    'features.txt': List of all features,
+    'activity_labels.txt': Links the class labels with their activity name,
+    'train/X_train.txt': Training set,
+    'train/y_train.txt': Training labels,
+    'test/X_test.txt': Test set,
+    'test/y_test.txt': Test labels,
     'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
 The R script called run_analysis.R does the following. 
