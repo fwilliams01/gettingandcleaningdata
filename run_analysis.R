@@ -36,7 +36,7 @@ traindata <- read.table("./Project/Data/UCI HAR Dataset/train/X_train.txt")
 testdata <- read.table("./Project/Data/UCI HAR Dataset/test/X_test.txt")
 colnames(traindata) <- column_names
 colnames(testdata) <- column_names
-## Read the ids and label the the variables
+## Read the ids and label the variables
 trainsub_id <- read.table("./Project/Data/UCI HAR Dataset/train/subject_train.txt")
 testsub_id <- read.table("./Project/Data/UCI HAR Dataset/test/subject_test.txt")
 colnames(trainsub_id) <- "subject_id"
