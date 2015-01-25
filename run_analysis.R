@@ -61,6 +61,7 @@ std_names <- names(merged_data)[std_x]
 sumstatsdata <-merged_data[,c("subject_id","activity_id",mean_names,std_names)]
 
 ## 3.)Uses descriptive activity names to name the activities in the data set
+## 4.)Appropriately labels the data set with descriptive variable names. 
 act_names <- merge(activity_labels,sumstatsdata,by.x="activity_id",by.y="activity_id",all=TRUE)
 melt_sumstatsdata <- melt(act_names,id=c("activity_id","activity_name","subject_id"))
 
